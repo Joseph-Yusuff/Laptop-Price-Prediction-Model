@@ -1,1 +1,46 @@
-venv
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Ignore virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Ignore IDE or editor folders and files
+.idea/
+.vscode/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files
+*.joblib
+*.pkl
+*.h5
+*.pb
+
+# Ignore large data files
+*.csv
+*.tsv
+*.xlsx
+*.json
+
+# Ignore logs and temporary files
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore files containing sensitive data
+config.json
+*.env
+secret_keys/
