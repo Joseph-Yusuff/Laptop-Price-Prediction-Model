@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import joblib
 import shap
-import uuid
 import os
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
