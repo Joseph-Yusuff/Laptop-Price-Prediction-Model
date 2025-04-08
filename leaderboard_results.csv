@@ -1,0 +1,5 @@
+Model,R² Score,MAE
+Manual_RF,0.8878,0.1612
+Bayes_Opt_RF,0.881,0.1631
+Ensemble,0.8852,0.1615
+Stacked,0.8934,0.1496
